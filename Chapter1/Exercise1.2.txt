@@ -1,0 +1,32 @@
+a.  Removing the closing curly-bracket:
+    The compiler expects a matching } with the opening.
+
+b.  Removing the opening curly-bracket:
+    The compiler expects a function body after the declarator. The closing curly-bracket is seen as an extraneous }.
+
+c.  Removing the int before main:
+    The compiler doesn't know which type main will return.
+
+d.  mian instead of main:
+    The compiler can't identify main for the executable.
+
+e.  Removing the closing */ from a comment:
+    Makes everything a comment. The compiler can't determine the end of the comment.
+
+f.  pintf instead of printf:
+    The compiler won't allow the calling of pintf() because it is not a declared function.
+
+g.  Deleting the opening parenthesis:
+    The compiler views the closing parenthesis as extraneous.
+    
+    Deleting the closing parenthesis:
+    The compiler is expecting a closing for the opening.
+    
+    Deleting both:
+    The expression is unusable.
+    
+    Adding an extra:
+    The parenthesis is viewed as extraneous.
+
+h.  Deleting the semicolon after the return statement:
+    The compiler expects the semicolon.
