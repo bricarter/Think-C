@@ -1,0 +1,12 @@
+a.
+OUTPUT:
+No, I wug.
+You wugga wug.
+I wug.
+
+b. 
+STACK DIAGRAM:
+Ping()
+Baffle()
+Zoop()
+main
