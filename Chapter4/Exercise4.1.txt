@@ -1,0 +1,40 @@
+a.
+#include <stdio.h>
+#include <stdlib.h>
+
+void Zippo(int quince, int flag);
+
+void Baffle (int output)
+{
+  printf("%i\n", output);   //TWO
+  Zippo(12, -5);
+}
+
+void Zippo(int quince, int flag)
+{
+if (flag < 0)
+{
+printf("%i zoop\n", quince);    //THREE
+}
+else
+{
+  printf("rattle ");    //ONE
+  Baffle(quince);
+  printf("boo-wa-ha-ha\n");   //FOUR
+}
+}
+
+int main (void)
+{
+Zippo(5, 13);
+
+return EXIT_SUCCESS;    //FIVE
+}
+
+b.	blimp isn't a parameter but the parameter quince value is 5
+
+c.
+OUTPUT:
+rattle 5
+12 zoop
+boo-wa-ha-ha
